@@ -1,0 +1,105 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/mbedtls/programs/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/test/query_included_headers"
+			],
+			"targetId" : "query_included_headers::@b49f37a216eeb3b61236",
+			"targetIndex" : 58,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/test/selftest"
+			],
+			"targetId" : "selftest::@b49f37a216eeb3b61236",
+			"targetIndex" : 67,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/test/udp_proxy"
+			],
+			"targetId" : "udp_proxy::@b49f37a216eeb3b61236",
+			"targetIndex" : 196,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/test/benchmark"
+			],
+			"targetId" : "benchmark::@b49f37a216eeb3b61236",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/test/query_compile_time_config"
+			],
+			"targetId" : "query_compile_time_config::@b49f37a216eeb3b61236",
+			"targetIndex" : 57,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/test/zeroize"
+			],
+			"targetId" : "zeroize::@b49f37a216eeb3b61236",
+			"targetIndex" : 197,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/mbedtls/programs/test",
+		"source" : "deps/mbedtls/programs/test"
+	}
+}

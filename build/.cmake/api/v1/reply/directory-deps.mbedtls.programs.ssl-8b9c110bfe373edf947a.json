@@ -1,0 +1,165 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/mbedtls/programs/ssl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/dtls_client"
+			],
+			"targetId" : "dtls_client::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/dtls_server"
+			],
+			"targetId" : "dtls_server::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 14,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/mini_client"
+			],
+			"targetId" : "mini_client::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 49,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_client1"
+			],
+			"targetId" : "ssl_client1::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 68,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_client2"
+			],
+			"targetId" : "ssl_client2::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 69,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_context_info"
+			],
+			"targetId" : "ssl_context_info::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 70,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_fork_server"
+			],
+			"targetId" : "ssl_fork_server::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 71,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_mail_client"
+			],
+			"targetId" : "ssl_mail_client::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 72,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_server"
+			],
+			"targetId" : "ssl_server::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 74,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_server2"
+			],
+			"targetId" : "ssl_server2::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 75,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/ssl/ssl_pthread_server"
+			],
+			"targetId" : "ssl_pthread_server::@ac4a4608bcf56ae8e91d",
+			"targetIndex" : 73,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/mbedtls/programs/ssl",
+		"source" : "deps/mbedtls/programs/ssl"
+	}
+}

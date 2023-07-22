@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.c": "c",
+        "connection.h": "c",
+        "ssl.h": "c",
+        "private_access.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "net_sockets.h": "c"
+    }
+}

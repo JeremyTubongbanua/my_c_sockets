@@ -1,0 +1,105 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/mbedtls/programs/x509/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/x509/cert_app"
+			],
+			"targetId" : "cert_app::@d54b3f1a7e8e9367e4bd",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/x509/cert_req"
+			],
+			"targetId" : "cert_req::@d54b3f1a7e8e9367e4bd",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/x509/cert_write"
+			],
+			"targetId" : "cert_write::@d54b3f1a7e8e9367e4bd",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/x509/crl_app"
+			],
+			"targetId" : "crl_app::@d54b3f1a7e8e9367e4bd",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/x509/load_roots"
+			],
+			"targetId" : "load_roots::@d54b3f1a7e8e9367e4bd",
+			"targetIndex" : 40,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/x509/req_app"
+			],
+			"targetId" : "req_app::@d54b3f1a7e8e9367e4bd",
+			"targetIndex" : 59,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/mbedtls/programs/x509",
+		"source" : "deps/mbedtls/programs/x509"
+	}
+}

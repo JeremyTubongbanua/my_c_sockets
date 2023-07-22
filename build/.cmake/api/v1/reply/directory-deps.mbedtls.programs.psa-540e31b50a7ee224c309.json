@@ -1,0 +1,109 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/mbedtls/programs/psa/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/psa/aead_demo"
+			],
+			"targetId" : "aead_demo::@fdc915ba2a5f7472f1e1",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/psa/crypto_examples"
+			],
+			"targetId" : "crypto_examples::@fdc915ba2a5f7472f1e1",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/psa/hmac_demo"
+			],
+			"targetId" : "hmac_demo::@fdc915ba2a5f7472f1e1",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/psa/key_ladder_demo"
+			],
+			"targetId" : "key_ladder_demo::@fdc915ba2a5f7472f1e1",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/psa/psa_constant_names"
+			],
+			"targetId" : "psa_constant_names::@fdc915ba2a5f7472f1e1",
+			"targetIndex" : 56,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/mbedtls/programs/psa/key_ladder_demo.sh"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/mbedtls/programs/psa",
+		"source" : "deps/mbedtls/programs/psa"
+	}
+}
